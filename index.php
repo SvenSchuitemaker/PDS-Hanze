@@ -19,6 +19,7 @@
                         <a href="team.php" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Team</a>
                         <a href="info.php" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Informatie</a>
                         <a href="test.php" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Doe de test</a>
+                        <a href="blog.php" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Blog</a>
                     </div>
                 </div>
 
@@ -47,6 +48,7 @@
                 <a href="team.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Team</a>
                 <a href="info.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Informatie</a>
                 <a href="test.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Doe de test</a>
+                <a href="blog.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Blog</a>
             </div>
         </div>
     </nav>
@@ -73,6 +75,14 @@
                 </div>
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+                        <a href="team.php" class="transition duration-300 hover:scale-95">
+                            <div class="text-base leading-7">
+                                <h3 class="font-semibold text-white">Het Team</h3>
+                                <p class="mt-2 text-gray-300">Alle informatie over het team achter deze website.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
                         <a href="info.php" class="transition duration-300 hover:scale-95">
                             <div class="text-base leading-7">
                                 <h3 class="font-semibold text-white">Informatie</h3>
@@ -85,14 +95,6 @@
                             <div class="text-base leading-7">
                                 <h3 class="font-semibold text-white">Doe de test!</h3>
                                 <p class="mt-2 text-gray-300">Ervaart u klachten? Doe de test en kom erachter.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-                        <a href="team.php" class="transition duration-300 hover:scale-95">
-                            <div class="text-base leading-7">
-                                <h3 class="font-semibold text-white">Het Team</h3>
-                                <p class="mt-2 text-gray-300">Alle informatie over het team achter deze website.</p>
                             </div>
                         </a>
                     </div>
