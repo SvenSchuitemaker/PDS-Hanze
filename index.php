@@ -43,7 +43,6 @@
         <!-- Mobile menu, show/hide based on menu state. -->
         <div class="lg:hidden" id="mobile-menu">
             <div class="space-y-1 pb-3 pt-2">
-                <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" -->
                 <a href="index.php" class="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">Home</a>
                 <a href="team.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Team</a>
                 <a href="info.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Informatie</a>
@@ -65,7 +64,12 @@
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mx-auto max-w-2xl lg:mx-0">
                     <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Prikkelbare darm syndroom</h2>
-                    <p class="mt-6 text-lg leading-8 text-gray-300">Prikkelbare Darm Syndroom (PDS) is een chronische darmaandoening waarbij je vooral buikpijn en ontlastingsproblemen (bijvoorbeeld verstopping of diarree) hebt. Ook gasvorming, een opgezette buik en vermoeidheid komen veel voor.</p>
+                    <p class="mt-6 text-lg leading-8 text-gray-300">
+                        <span class="font-bold">Prikkelbare Darm Syndroom (PDS)</span>
+                        is een chronische darmaandoening waarbij je vooral buikpijn en
+                        ontlastingsproblemen (bijvoorbeeld verstopping of diarree) hebt.
+                        Ook gasvorming, een opgezette buik en vermoeidheid komen veel voor.
+                    </p>
                 </div>
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
