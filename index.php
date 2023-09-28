@@ -4,35 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn Website</title>
+    <title>Prikkelbare darmsyndroom</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <!--
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
     <nav class="bg-white shadow">
         <div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
             <div class="flex h-16 justify-between">
                 <div class="flex px-2 lg:px-0">
                     <div class="hidden lg:ml-6 lg:flex lg:space-x-8">
-                        <a href="#" class="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900">Home</a>
-                        <a href="#Team" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Team</a>
-                        <a href="#Informatie" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Informatie</a>
-                        <a href="#Test" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Test</a>
+                        <a href="index.php" class="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900">Home</a>
+                        <a href="team.php" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Team</a>
+                        <a href="info.php" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Informatie</a>
+                        <a href="test.php" class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">Doe de test</a>
                     </div>
                 </div>
 
@@ -58,10 +44,10 @@
         <div class="lg:hidden" id="mobile-menu">
             <div class="space-y-1 pb-3 pt-2">
                 <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" -->
-                <a href="#" class="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">Dashboard</a>
-                <a href="#" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Team</a>
-                <a href="#" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Projects</a>
-                <a href="#" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Calendar</a>
+                <a href="index.php" class="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700">Home</a>
+                <a href="team.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Team</a>
+                <a href="info.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Informatie</a>
+                <a href="test.php" class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800">Doe de test</a>
             </div>
         </div>
     </nav>
@@ -83,7 +69,7 @@
                 </div>
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-                        <a href="#info" class="transition duration-300 hover:scale-95">
+                        <a href="info.php" class="transition duration-300 hover:scale-95">
                             <div class="text-base leading-7">
                                 <h3 class="font-semibold text-white">Informatie</h3>
                                 <p class="mt-2 text-gray-300">Informatie over PDS en symptomen</p>
@@ -91,7 +77,7 @@
                         </a>
                     </div>
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-                        <a href="#info" class="transition duration-300 hover:scale-95">
+                        <a href="test.php" class="transition duration-300 hover:scale-95">
                             <div class="text-base leading-7">
                                 <h3 class="font-semibold text-white">Doe de test!</h3>
                                 <p class="mt-2 text-gray-300">Ervaart u klachten? Doe de test en kom erachter.</p>
@@ -99,7 +85,7 @@
                         </a>
                     </div>
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-                        <a href="#info" class="transition duration-300 hover:scale-95">
+                        <a href="team.php" class="transition duration-300 hover:scale-95">
                             <div class="text-base leading-7">
                                 <h3 class="font-semibold text-white">Het Team</h3>
                                 <p class="mt-2 text-gray-300">Alle informatie over het team achter deze website.</p>
