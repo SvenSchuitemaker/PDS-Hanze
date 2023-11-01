@@ -11,7 +11,7 @@
 <body>
     <!-- Navigation -->
     <?php include 'navbar.php'; ?>
-    
+
     <header>
         <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
             <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
@@ -33,14 +33,6 @@
                 </div>
                 <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-                        <a href="team.php" class="transition duration-300 hover:scale-95">
-                            <div class="text-base leading-7">
-                                <h3 class="font-semibold text-white">Het Team</h3>
-                                <p class="mt-2 text-gray-300">Alle informatie over het team achter deze website.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
                         <a href="info.php" class="transition duration-300 hover:scale-95">
                             <div class="text-base leading-7">
                                 <h3 class="font-semibold text-white">Informatie</h3>
@@ -49,10 +41,18 @@
                         </a>
                     </div>
                     <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-                        <a href="test.php" class="transition duration-300 hover:scale-95">
+                        <a href="../chatapp/index.php" class="transition duration-300 hover:scale-95">
                             <div class="text-base leading-7">
                                 <h3 class="font-semibold text-white">Chat met anderen!</h3>
                                 <p class="mt-2 text-gray-300">Chat met andere personen met PDS!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
+                        <a href="blog.php" class="transition duration-300 hover:scale-95">
+                            <div class="text-base leading-7">
+                                <h3 class="font-semibold text-white">Blog</h3>
+                                <p class="mt-2 text-gray-300">Verschillende blogs.</p>
                             </div>
                         </a>
                     </div>
