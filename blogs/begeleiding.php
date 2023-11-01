@@ -10,7 +10,7 @@
 
 <body>
 
-    <?php include '../navbar.php'; ?>
+    <?php include 'navbar.php'; ?>
 
     <div class="container flex place-content-center">
         <div class="mt-10 w-1/2">
