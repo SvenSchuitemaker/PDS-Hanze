@@ -56,7 +56,7 @@
                 PDS in contact komen. Samen staan we sterker. </p>
 
             <div class="mt-5 mb-20">
-                <a href="../chat.php" class="bg-transparent border-green-500 border hover:bg-green-500 text-green-500 hover:text-white p-2 rounded-full transition duration-300 ease-in-out mt-5">Ga naar de chat</a>
+                <a href="../chatapp/index.php" class="bg-transparent border-green-500 border hover:bg-green-500 text-green-500 hover:text-white p-2 rounded-full transition duration-300 ease-in-out mt-5">Ga naar de chat</a>
             </div>
         </div>
     </div>
