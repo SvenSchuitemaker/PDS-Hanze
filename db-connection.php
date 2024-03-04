@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "Naomi2211!";
+$username = "USERNAME";
+$password = "PASSWORD";
 $dbname = "PDS_Hanze";
 
 // Maak een databaseverbinding
